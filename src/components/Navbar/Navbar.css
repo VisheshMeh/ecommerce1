@@ -1,0 +1,68 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #dbe7ee;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+}
+.header .logo {
+  color: brown;
+  font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+}
+.header .logo .icon {
+  font-size: 25px;
+  transform: translateY(5px);
+}
+@media screen and (max-width: 768px) {
+  .header .navBar {
+    margin-top: 2rem;
+    padding: 1rem;
+    position: absolute;
+    height: -moz-max-content;
+    height: max-content;
+    background: whitesmoke;
+    width: 80;
+    border-radius: 1rem;
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.9);
+    transition: 0.3s ease-in-out;
+  }
+  .header .navBar .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+  .header .navBar .navLists .navItems {
+    padding: 0.5rem 0;
+  }
+  .header .navBar .navLists .navItems .navLink {
+    color: grey;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .header .navBar .navLists .navItems .navLink:hover {
+    color: black;
+  }
+}
+
+.navItems {
+  justify-content: space-between;
+  padding: 0 0.8rem;
+  margin: 0 0.8rem;
+}
+
+.navItems1 {
+  justify-content: space-between;
+  padding: 0 0.4rem;
+  margin: 0 0.4rem;
+}/*# sourceMappingURL=Navbar.css.map */
