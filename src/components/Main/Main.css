@@ -1,10 +1,14 @@
+.Main {
+  width: 100%;
+  display: flex;
+}
+
 .Main1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   width: 100%;
   padding: 20px;
-  border: 1px solid #ccc;
   border-radius: 5px;
   transition: transform 1s ease;
 }
@@ -23,7 +27,7 @@
 }
 
 .image-container img {
-  max-width: 100%;
+  max-width: 85%;
   height: auto;
 }
 
@@ -38,7 +42,9 @@
 }
 
 .subtitle {
-  font-size: 48px;
+  width: 300px;
+  font-size: 44px;
+  font-weight: 500;
   margin: 10px 0;
 }
 
@@ -47,10 +53,12 @@
 }
 
 .shop-now-btn {
+  margin-top: 20px;
+  width: 7rem;
   display: inline-block;
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: blue;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #015294;
   color: white;
   border: none;
   cursor: pointer;
@@ -64,13 +72,13 @@
 }
 
 .arrow-btn {
-  padding: 5px;
-  border-radius: 50%;
-  background-color: #ccc;
-  color: #fff;
+  background-color: white;
+  color: #015294;
+  padding: 17px;
+  border-radius: 100%;
   border: none;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 38px;
 }
 
 .prev-btn {
@@ -79,4 +87,11 @@
 
 .next-btn {
   margin-left: auto;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=Main.css.map */

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Navbar.css";
-import { MdOutlineTravelExplore } from "react-icons/md";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import { BsCart2 } from "react-icons/bs";
+import logo from "../images/logo.png";
 
 const Navbar = () => {
   return (
@@ -13,10 +13,7 @@ const Navbar = () => {
         <header className="header flex">
           <div className="logoDiv">
             <a href="#" className="logo flex">
-              <h1>
-                <MdOutlineTravelExplore className="icon" />
-                Travel.
-              </h1>
+              <img src={logo} alt="" className="img" />
             </a>
           </div>
           <div className="navBar">

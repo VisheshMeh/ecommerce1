@@ -1,0 +1,54 @@
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+p {
+  padding: 0.8rem 0;
+}
+.ContactUs {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.left-section {
+  h2 {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  margin-left: 2rem;
+  text-align: left;
+  width: 30%;
+}
+.contact-form {
+  p {
+    font-size: 0.9rem;
+    padding: 2rem 0;
+  }
+  h2 {
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    justify-content: left;
+  }
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: left;
+  margin-right: 1rem;
+}
+.form input,
+.form textarea {
+  border: 0.5px solid black;
+  width: 100%;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+button {
+  display: flex;
+  background-color: #015294;
+  color: white;
+  border-radius: 20px;
+  width: 6rem;
+  padding: 0.3rem;
+  margin-left: auto;
+  justify-content: center;
+}

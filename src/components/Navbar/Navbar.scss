@@ -41,13 +41,14 @@
         margin: auto;
         padding: 0.5rem 0;
         .navItems {
+          color: black;
           padding: 0.5rem 0;
           .navLink {
-            color: grey;
+            color: black;
             font-size: 0.9rem;
             font-weight: 600;
             &:hover {
-              color: black;
+              color: purple;
             }
           }
         }
@@ -64,4 +65,7 @@
   justify-content: space-between;
   padding: 0 0.4rem;
   margin: 0 0.4rem;
+}
+.navBar1 {
+  font-size: 1rem;
 }

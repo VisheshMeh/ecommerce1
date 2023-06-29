@@ -43,15 +43,16 @@
     padding: 0.5rem 0;
   }
   .header .navBar .navLists .navItems {
+    color: black;
     padding: 0.5rem 0;
   }
   .header .navBar .navLists .navItems .navLink {
-    color: grey;
+    color: black;
     font-size: 0.9rem;
     font-weight: 600;
   }
   .header .navBar .navLists .navItems .navLink:hover {
-    color: black;
+    color: purple;
   }
 }
 
@@ -65,4 +66,8 @@
   justify-content: space-between;
   padding: 0 0.4rem;
   margin: 0 0.4rem;
+}
+
+.navBar1 {
+  font-size: 1rem;
 }/*# sourceMappingURL=Navbar.css.map */
