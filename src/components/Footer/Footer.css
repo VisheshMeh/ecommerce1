@@ -12,7 +12,6 @@
   display: flex;
   flex-flow: wrap;
   gap: 20px;
-  justify-content: space-around;
 }
 .footer .footer-content .col {
   max-width: 30%;
@@ -31,19 +30,4 @@
   display: flex;
   flex-direction: column;
   width: 33%;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  max-height: 100px;
-  flex-wrap: wrap;
-}
-
-.bottom-bar {
-  display: flex;
-  text-align: center;
 }/*# sourceMappingURL=Footer.css.map */
